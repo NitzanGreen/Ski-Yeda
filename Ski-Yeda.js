@@ -2868,9 +2868,9 @@ p.nominalBounds = new cjs.Rectangle(-69.8,-76,164.8,173.6);
 		
 		//פונקציה להוספת סאונד
 		function init() {
-			createjs.Sound.registerSound("/sounds/_true.mp3", "true");
-			createjs.Sound.registerSound("/sounds/_false.mp3", "false");
-			createjs.Sound.registerSound("/sounds/end.mp3", "end");
+			createjs.Sound.registerSound("https://nitzangreen.github.io/Ski/sounds/true.mp3", "true");
+			createjs.Sound.registerSound("https://nitzangreen.github.io/Ski/sounds/false.mp3", "false");
+			createjs.Sound.registerSound("https://nitzangreen.github.io/Ski/sounds/end.mp3", "end");
 		}
 		
 		//פונקציה שרצה בתחילת ההרצה ומביאה לבמה את כל האלמנטים ההתחלתיים:
